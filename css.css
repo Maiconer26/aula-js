@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fff;
+    padding: 2em;
+}
+
+form {
+    background-color: rgb(173, 13, 45);
+    color: black;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    gap: 1em;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+label {
+    margin-bottom: 0.5em;
+}
+
+input {
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+button {
+    padding: 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+span {
+    font-size: 0.9em;
+    color: black;
+}
+.claro{
+    background-color: #fff;
+    color: #000;
+}
+.escuro{
+    background-color: #000;
+    color: #fff;
+}
